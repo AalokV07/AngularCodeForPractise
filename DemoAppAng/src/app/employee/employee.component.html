@@ -1,0 +1,27 @@
+<section class="rm-employee-section">
+    <section class="employee-table-section">
+        <section class="heading">EMPLOYEES DATA</section>
+        <section class="employee-table">
+            <table class="employeeTable">
+                <thead>
+                    <tr>
+                        <th class="wdth-col-20">Employee Name</th>
+                        <th class="wdth-col-20">Quantity</th>
+                        <th class="wdth-col-20">Price</th>
+                        <th class="wdth-col-20">Date</th>
+                        <th class="wdth-col-20">Status</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let data of details.employeeDetailsObj">
+                    <tr>
+                        <td class="wdth-col-20">{{data.name}}</td>
+                        <td class="wdth-col-20">{{data.quantity}}</td>
+                        <td class="wdth-col-20">{{data.price}}</td>
+                        <td class="wdth-col-20">{{data.date}}</td>
+                        <td class="wdth-col-20">{{data.status}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+</section>

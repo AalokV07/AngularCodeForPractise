@@ -1,0 +1,25 @@
+{
+    "customerDetailsObj": [
+        {
+            "name":"Alok",
+            "quantity":"25",
+            "price":"45 rupees",
+            "date":"24/02/2020",
+            "status":"Active"
+        },
+        {
+            "name":"Anshul",
+            "quantity":"55",
+            "price":"67 rupees",
+            "date":"12/07/2019",
+            "status":"Out Of stock"
+        },
+        {
+            "name":"Rahul",
+            "quantity":"17",
+            "price":"97 rupees",
+            "date":"11/01/2020",
+            "status":"In-Active"
+        }
+    ]
+}

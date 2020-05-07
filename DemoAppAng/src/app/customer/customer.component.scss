@@ -1,0 +1,34 @@
+.rm-customer-section{
+    .customer-table-section{
+        .heading{
+            color: #c54721;
+            font-weight: bold;
+        }
+        .customer-table{
+            .customerTable{
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            .customerTable th, .customerTable td{
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            .customerTable tr:hover {background-color: #ddd;}
+
+            .customerTable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+            }
+            
+            .wdth-col-20{
+                width: 20%;
+            }
+        }
+    }
+}

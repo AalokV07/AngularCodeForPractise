@@ -1,0 +1,19 @@
+.main-app{
+    .container{
+        .genericHeading{
+            text-align: center;
+            margin: 12px;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            color: red;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        
+    }
+    .employee-details{
+        margin: 12px;
+    }
+    .customer-details{
+        margin: 12px;
+    }
+}
