@@ -12,8 +12,8 @@
                         <th class="wdth-col-20">Status</th>
                     </tr>
                 </thead>
-                <tbody *ngFor="let data of details.employeeDetailsObj">
-                    <tr>
+                <tbody>
+                    <tr *ngFor="let data of details.employeeDetailsObj">
                         <td class="wdth-col-20">{{data.name}}</td>
                         <td class="wdth-col-20">{{data.quantity}}</td>
                         <td class="wdth-col-20">{{data.price}}</td>

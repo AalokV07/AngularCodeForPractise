@@ -1,0 +1,12 @@
+<!---String Interpolation-->
+<section class="stringInterpolation">My Name is {{fullName}} and Age is {{age}} years old</section>
+
+<!---property Binding-->
+<h3 [innerHtml]='name'></h3>
+<button [disabled]='isDisabled'>Disable Me!</button>
+<button disabled='{{isDisab}}'>Disable Me</button>
+<button [hidden]="true">Hidden Me</button> 
+
+
+<!---event Binding-->
+<button (click)="myFunction($event)">Click Me!</button>

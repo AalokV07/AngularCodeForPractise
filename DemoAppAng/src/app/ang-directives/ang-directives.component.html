@@ -1,0 +1,6 @@
+<section class="directiveExample">
+    <button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+    show = {{show}}
+    <br>
+    <div *ngIf="show">Text To show</div>
+</section>

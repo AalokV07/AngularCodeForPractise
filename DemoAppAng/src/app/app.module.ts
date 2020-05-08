@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { CustomerComponent } from './customer/customer.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { AngDirectivesComponent } from './ang-directives/ang-directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    CustomerComponent
+    CustomerComponent,
+    DataBindingComponent,
+    AngDirectivesComponent
   ],
   imports: [
     BrowserModule,
